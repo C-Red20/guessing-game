@@ -1,0 +1,15 @@
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\bin\Debug\net8.0\Guessing.exe
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\bin\Debug\net8.0\Guessing.deps.json
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\bin\Debug\net8.0\Guessing.runtimeconfig.json
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\bin\Debug\net8.0\Guessing.dll
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\bin\Debug\net8.0\Guessing.pdb
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\obj\Debug\net8.0\Guessing.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\obj\Debug\net8.0\Guessing.AssemblyInfoInputs.cache
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\obj\Debug\net8.0\Guessing.AssemblyInfo.cs
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\obj\Debug\net8.0\Guessing.csproj.CoreCompileInputs.cache
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\obj\Debug\net8.0\Guessing.sourcelink.json
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\obj\Debug\net8.0\Guessing.dll
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\obj\Debug\net8.0\refint\Guessing.dll
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\obj\Debug\net8.0\Guessing.pdb
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\obj\Debug\net8.0\Guessing.genruntimeconfig.cache
+C:\Users\dperr\workspace\C9\back-end\csharp\guessing-game\obj\Debug\net8.0\ref\Guessing.dll
