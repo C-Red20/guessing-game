@@ -6,10 +6,12 @@ class Program
     {
         int secretNumber = 42;
         int guessesLeft = 4;
+        int guessesMade = 0;
 
         while (guessesLeft > 0)
         {
-            Console.Write("Guess the secret number (between 1 and 100): ");
+            guessesMade++;
+            Console.Write($"Your guess ({guessesMade}): ");
             int userGuess = Convert.ToInt32(Console.ReadLine());
 
             if (userGuess == secretNumber)
@@ -38,3 +40,4 @@ class Program
         Console.ReadKey();
     }
 }
+
