@@ -15,7 +15,7 @@ class Program
         while (guessesLeft > 0)
         {
             guessesMade++;
-            Console.Write($"Your guess ({guessesMade}): , guesses left: {guessesLeft}: ");
+            Console.Write($"Your guess ({guessesMade}), guesses left: {guessesLeft}: ");
             int userGuess = Convert.ToInt32(Console.ReadLine());
 
             if (userGuess == secretNumber)
@@ -23,20 +23,25 @@ class Program
                 Console.WriteLine("Congratulations! You guessed the secret number.");
                 break;
             }
+            else if (userGuess < secretNumber)
+            {
+                Console.WriteLine("Incorrect guess. Too low!");
+            }
             else
             {
-                guessesLeft--;
-                Console.WriteLine("Incorrect guess.");
+                Console.WriteLine("Incorrect guess. Too high!");
+            }
 
-                if (guessesLeft > 0)
-                {
-                    Console.WriteLine($"You have {guessesLeft} guesses left.");
-                }
-                else
-                {
-                    Console.WriteLine("Sorry, you've run out of guesses.");
-                    Console.WriteLine($"The secret number was {secretNumber}.");
-                }
+            guessesLeft--;
+
+            if (guessesLeft > 0)
+            {
+                Console.WriteLine($"You have {guessesLeft} guesses left.");
+            }
+            else
+            {
+                Console.WriteLine("Sorry, you've run out of guesses.");
+                Console.WriteLine($"The secret number was {secretNumber}.");
             }
         }
 
