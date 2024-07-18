@@ -4,6 +4,9 @@ class Program
 {
     static void Main()
     {
+        Console.WriteLine("Welcome to the Guessing Game!");
+        Console.WriteLine("Try to guess the secret number. (Between 1 & 100)");
+
         int secretNumber = 42;
         int guessesLeft = 4;
         int guessesMade = 0;
