@@ -11,6 +11,7 @@ class Program
         Console.WriteLine("1. Easy (8 guesses)");
         Console.WriteLine("2. Medium (6 guesses)");
         Console.WriteLine("3. Hard (4 guesses)");
+        Console.WriteLine("4. Cheater (unlimited guesses)");
 
         int difficultyChoice;
         int guessesLeft = 0;
@@ -33,6 +34,9 @@ class Program
                     case 3:
                         guessesLeft = 4;
                         break;
+                    case 4:
+                        guessesLeft = int.MaxValue; // Cheater mode, unlimited guesses
+                        break;
                     default:
                         break;
                 }
@@ -41,7 +45,7 @@ class Program
             }
             else
             {
-                Console.WriteLine("Invalid choice. Please enter 1, 2, or 3.");
+                Console.WriteLine("Invalid choice. Please enter 1, 2, 3, or 4.");
             }
         }
 
